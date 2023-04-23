@@ -26,9 +26,13 @@ wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh
 安装脚本
 
 bash install.sh  --port=端口 --user=用户名 --passwd=密码
+
 其中的端口 用户名 密码自行修改后粘贴到SSH里运行安装即可；
+
 完成后会提示Dante Server Install Successfuly即表示安装成功；
+
 安装后如果连接不上，检查设置的端口是否已经放行；
+
 说明：安装完成后会显示内网IP地址，但在实际使用的时候需要用外网IP地址；
 
 使用
